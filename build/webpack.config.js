@@ -5,6 +5,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
+        jQuery: path.resolve(__dirname, '../vendors/fake_jQuery.js'),
         main: path.resolve(__dirname, '../src/index.js')
     },
     output: {

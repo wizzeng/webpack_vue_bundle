@@ -1,2 +1,2 @@
+fake_jQuery.ajax()
 
-console.log('Run Webpack');

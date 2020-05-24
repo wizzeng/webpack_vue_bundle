@@ -12,6 +12,11 @@ module.exports = {
         path: path.resolve(__dirname, '../dist'),
         filename: '[name].[hash:6].js'
     },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, '../src')
+        }
+    },
     loader: {
 
     },
